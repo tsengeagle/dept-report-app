@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ApportionMasterComponent } from './apportion-master/apportion-master.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ApportionMasterComponent
   ],
   imports: [
     BrowserModule,
