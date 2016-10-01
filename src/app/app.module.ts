@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ApportionMasterComponent } from './apportion-master/apportion-master.component';
+import { ApportionDetailComponent } from './apportion-detail/apportion-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ApportionMasterComponent
+    ApportionMasterComponent,
+    ApportionDetailComponent
   ],
   imports: [
     BrowserModule,
