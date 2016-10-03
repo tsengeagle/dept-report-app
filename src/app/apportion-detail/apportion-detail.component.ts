@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ApportionDetailComponent implements OnInit {
 
+  data= ['A', 'B', 'C'];
+
   constructor() { }
 
   ngOnInit() {
