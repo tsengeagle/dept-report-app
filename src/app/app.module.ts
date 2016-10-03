@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ApportionMasterComponent } from './apportion-master/apportion-master.component';
 import { ApportionDetailComponent } from './apportion-detail/apportion-detail.component';
+import { ApportionService } from './apportion.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { ApportionDetailComponent } from './apportion-detail/apportion-detail.co
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ ApportionService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
