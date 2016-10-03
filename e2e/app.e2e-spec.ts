@@ -7,8 +7,8 @@ describe('dept-report-app App', function() {
     page = new DeptReportAppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('呈現首頁訊息', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('分攤表及明細');
   });
 });
