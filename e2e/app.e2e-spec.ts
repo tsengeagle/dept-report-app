@@ -7,8 +7,8 @@ describe('dept-report-app App', function() {
     page = new DeptReportAppPage();
   });
 
-  it('呈現首頁訊息', () => {
+  it('科報系統首頁標題', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('分攤表及明細');
+    expect(page.getParagraphText()).toEqual('科報系統');
   });
 });
