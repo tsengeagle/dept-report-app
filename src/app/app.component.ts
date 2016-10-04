@@ -13,6 +13,7 @@ export class AppComponent {
     { 'CostID': '000001', 'CostName': 'Cost01' },
     { 'CostID': '000002', 'CostName': 'Cost02' },
     { 'CostID': '000003', 'CostName': 'Cost03' },
+    { 'CostID': '000004', 'CostName': 'Cost04' },
   ];
 }
 
