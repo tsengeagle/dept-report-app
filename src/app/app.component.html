@@ -2,3 +2,19 @@
   {{title}}
 </h1>
 
+<ul>
+  <li *ngFor="let item of apportionMasterItem">
+    {{item}}
+  </li>
+</ul>
+
+<table>
+  <tr>
+    <th>CostID</th>
+    <th>CostName</th>
+  </tr>
+  <tr *ngFor="let item of apportionMaster">
+    <td>{{item.CostID}}</td>
+    <td>{{item.CostName}}</td>
+  </tr>
+</table>

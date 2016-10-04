@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = '科報系統';
+  apportionMasterItem = ['Cost01', 'Cost02', 'Cost03'];
+  apportionMaster: ApportionMaster[] =
+  [
+    { 'CostID': '000001', 'CostName': 'Cost01' },
+    { 'CostID': '000002', 'CostName': 'Cost02' },
+    { 'CostID': '000003', 'CostName': 'Cost03' },
+  ];
+}
+
+export class ApportionMaster {
+  CostID: string;
+  CostName: string;
 }
